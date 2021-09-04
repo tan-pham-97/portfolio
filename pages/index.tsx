@@ -1,17 +1,17 @@
-// import type { NextPage } from 'next'
-// import Head from 'next/head'
-// import Image from 'next/image'
-// import styles from '../styles/Home.module.css'
-import { Header, Footer, LanguageSwitcher } from "../components";
 
-function HomePage() {
+import React from 'react'
+import Head from 'next/head'
+import { getInitialLocale } from '../translations/getInitialLocale'
+
+const Index: React.FC = () => {
+  React.useEffect(() => {
+    window.location.replace(`/${getInitialLocale()}`)
+  })
   return (
-    <div>
-      <Header />
-      <LanguageSwitcher />
-      <Footer />
-    </div>
-  );
+    <Head>
+      <meta name="robots" content="noindex, nofollow" />
+    </Head>
+  )
 }
 
-export default HomePage;
+export default Index
