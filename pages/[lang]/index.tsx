@@ -1,3 +1,4 @@
+import 'tailwindcss/tailwind.css'
 import React from 'react'
 import Layout from '../../components/Layout'
 import Painting from '../../components/Painting'
