@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind component;
+@tailwind utilities;
+
+@layer base {
+  /* Light*/
+  @font-face {
+    font-family: "Nikin Light";
+    src: url("/fonts/Nikin/Light.ttf");
+  }
+
+  @font-face {
+    font-family: "Nikin Light Italic";
+    src: url("/fonts/Nikin/LightItalic.ttf");
+  }
+
+  /* Regular */
+  @font-face {
+    font-family: "Nikin";
+    src: url("/fonts/Nikin/Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "Nikin Italic";
+    src: url("/fonts/Nikin/RegularItalic.ttf");
+  }
+
+  /* Medium */
+  @font-face {
+    font-family: "Nikin Medium";
+    src: url("/fonts/Nikin/Medium.ttf");
+  }
+
+  @font-face {
+    font-family: "Nikin Medium Italic";
+    src: url("/fonts/Nikin/MediumItalic.ttf");
+  }
+
+  /* Bold */
+  @font-face {
+    font-family: "Nikin Bold";
+    src: url("/fonts/Nikin/Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "Nikin Bold Italic";
+    src: url("/fonts/Nikin/BoldItalic.ttf");
+  }
+
+  /* Black */
+  @font-face {
+    font-family: "Nikin Black";
+    src: url("/fonts/Nikin/Black.ttf");
+  }
+
+  @font-face {
+    font-family: "Nikin Black Italic";
+    src: url("/fonts/Nikin/BlackItalic.ttf");
+  }
+
+  /* Heavy */
+  @font-face {
+    font-family: "Nikin Heavy";
+    src: url("/fonts/Nikin/Heavy.ttf");
+  }
+
+  @font-face {
+    font-family: "Nikin Heavy Italic";
+    src: url("/fonts/Nikin/HeavyItalic.ttf");
+  }
+}

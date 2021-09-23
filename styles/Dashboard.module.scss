@@ -1,0 +1,8 @@
+$main-bg: rgb(242,242,242);
+// $main-bg: red;
+
+.main_bg{
+    background-color: $main-bg;
+    height: 100vh;
+    width: 100vw;
+}
